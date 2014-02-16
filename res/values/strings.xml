@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">ArcheryScorer</string>
+    <string name="title_app">Archery Score Sheet</string>
+    <string name="title_activity_archery_score_sheet">Score Sheet</string>
+    
+    <string name="menu_add">Add</string>
+    <string name="menu_add_page">Add Page</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_edit_name">Edit Name</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_delete_all">Delete all</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_view">View</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_change_layout">Change Layout</string>
+    <string name="menu_sight_marks">Sight Marks</string>
+    <string name="menu_saved_pages">Saved Pages</string>
+    <string name="menu_target_face">Target Face</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_change_face">Change Face</string>
+    <string name="menu_change_spot_size">Change Spot Size</string>
+    <string name="menu_change_end_size">Change Number of Arrows Per End</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_export_to_excel">Export To Excel</string>
+    <string name="menu_fb_share">Share on FaceBook</string>
+    <string name="menu_change_button_layout">Change Button Layout</string>
+    <string name="menu_score_sheet">Score Sheet</string>
+    
+    <string name="title_activity_main">Archery Calculator</string>
+    <string name="title_activity_score_sheet">Archery Score Sheet</string>
+    <string name="title_activity_score_sheet_viewer">Score Sheet Viewer</string>
+    <string name="title_activity_dynamic_score_sheet_viewer">Score Sheet Viewer</string>
+    <string name="title_activity_sight_marks_details">Sight Marks</string>
+    <string name="title_activity_list_sight_marks">Sight Marks</string>
+    <string name="title_activity_list_names">Names</string>
+    <string name="title_activity_list_scores">Scores</string>
+    <string name="title_activity_touch_screen_interface">Touch Face</string>
+    <string name="title_activity_calculator">Calculator</string>
+    
+    <string name="empty">-</string>
+    <string name="bck">Undo</string>
+    <string name="clear">Clear</string>
+    <string name="twelve">12</string>
+    <string name="eleven">11</string>
+    <string name="X">X</string>
+    <string name="ten">10</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="miss">M</string>
+    <string name="save">Save</string>
+    <string name="round">Round</string>
+    <string name="distance">m</string>
+    <string name="target_size">cm</string>
+    
+    <string name="calculator">Calculator</string>
+    <string name="second_distance">Second Distance</string>
+    <string name="toggle_turn_on">Shooting</string>
+    <string name="toggle_turn_off">Not Shooting</string>
+    <string name="next">Chg Dist</string>
+    <string name="quit">Quit</string>
+    <string name="really_quit">Are you sure you want to quit?</string>
+    <string name="clearAll">Clear</string>
+    <string name="really_clear">Are you sure you want to clear everything?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sight_mark">Sight Marks</string>
+    <string name="shooting_distance">Distance</string>
+    <string name="mark">Mark</string>
+    <string name="cancel">Cancel</string>
+    <string name="distanceTitle">Distance</string>
+    <string name="elevation">Elevation</string>
+    <string name="metricMetres">Metres</string>
+    <string name="imperialYards">Yards</string>
+    <string name="degrees">Degrees</string>
+    <string name="radians">Radians</string>
+    <string name="go">Go</string>
+    <string name="ScoreSheet">Score Sheet</string>
+    <string name="select_outer_ring">Select the Outer Ring for the Spot</string>
+    <string name="space"></string>
+    <string name="post_to_fb">Post to Facebook</string>
+    <string name="fb_message">Hey guys, I do archery.</string>
+    <string name="action_bar_search">Search</string>
+    
+    <string name="scoring_full">Full</string>
+    <string name="scoring_spot">Spot</string>
+    <string name="scoring_indoor_spot">Indoor Spot</string>
+    <string name="scoring_small_spot">Small Spot</string>
+    <string name="scoring_five_zone">Five Zone</string>
+    <string name="scoring_field">Field</string>
+    <string name="scoring_compound_indoor_spot">Compound Indoor Spot</string>
+    
+    <string name="appname_dynamic_score_sheet">Archery Score Sheet</string>
+    <string name="appname_archery_score_sheet">FITA Score Sheet</string>
+    <string name="appname_saved_pages">Saved Score Sheets</string>
+    <string name="appname_target">Target</string>
+    <string name="appname_sight_marks">Sight Marks</string>
+    <string name="appname_calculator">Calculator</string>
+    
+    <string name="facebook_app_id">315354875243163</string>
+
+    <drawable name="grey">#AAAAAA</drawable>
+    <drawable name="green">#22AA22</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="blue">#5555FF</drawable>
+
+    <string-array name="target_sizes">
+        <item>122cm</item>
+        <item>80cm</item>
+        <item>60cm</item>
+        <item>40cm</item>
+        <item>Other</item>
+    </string-array>
+
+    <style name="ScoreSheetButtons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/white</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ScoreSheetTexts">
+        <item name="android:layout_width">33dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/grey</item>
+        <item name="android:text">@string/space</item>
+        <item name="android:shadowColor">#88AA88</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="ScoreSheetEditText">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:textColorHint">@drawable/green</item>
+        <item name="android:textColor">@drawable/white</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dynamic_score_sheet">DynamicScoreSheet</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">ScoreSheet</string>
+    <string name="title_section1">Target</string>
+    <string name="title_activity_target_viewer">TargetViewer</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="title_activity_archery_scorer">Archery Scorer</string>
+
+</resources>

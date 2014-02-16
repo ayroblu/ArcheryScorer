@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="text_size">20px</dimen>
+    <dimen name="text_size_sp">20sp</dimen>
+    <dimen name="text_size_small">15px</dimen>
+    <dimen name="text_size_small_sp">15sp</dimen>
+    <dimen name="text_size_extra_small">12px</dimen>
+    <dimen name="text_size_extra_small_sp">12sp</dimen>
+    <dimen name="text_size_large">25px</dimen>
+    <dimen name="text_size_large_sp">25sp</dimen>
+    <dimen name="text_size_extra_large">32px</dimen>
+    <dimen name="text_size_extra_large_sp">32sp</dimen>
+
+    
+</resources>

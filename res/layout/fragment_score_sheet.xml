@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    <!-- 320dp across, 533dp down -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="160dp"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/round"
+                    android:nextFocusDown="@+id/editTextd1" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/editTextd1"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/distance"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/editTextf1"
+                    android:nextFocusUp="@+id/editText1" />
+
+                <EditText
+                    android:id="@+id/editTextf1"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/target_size"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusUp="@+id/editTextd1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp" >
+
+                <TextView
+                    android:id="@+id/textView0"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts"
+                    android:background="@drawable/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView9"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView16"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView17"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView18"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView24"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView25"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView32"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView34"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView40"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView41"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/editTextd2"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/distance"
+                    android:layout_marginLeft="160dp"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/editTextf2" />
+
+                <EditText
+                    android:id="@+id/editTextf2"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/target_size"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusUp="@+id/editTextd2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp" >
+
+                <TextView
+                    android:id="@+id/textView48"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView49"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView50"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView56"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView57"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView58"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView64"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView65"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView66"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView72"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView73"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView74"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView75"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView80"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView81"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView83"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView85"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+                
+                <TextView
+                    android:id="@+id/textView88"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView89"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView91"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView93"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/editTextd3"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/distance"
+                    android:layout_marginLeft="160dp"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/editTextf3" />
+
+                <EditText
+                    android:id="@+id/editTextf3"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/target_size"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp" >
+
+                <TextView
+                    android:id="@+id/textView96"
+                    style="@style/ScoreSheetTexts" />
+                
+				<TextView
+                    android:id="@+id/textView97"
+                    style="@style/ScoreSheetTexts" />
+
+				<TextView
+                    android:id="@+id/textView98"
+                    style="@style/ScoreSheetTexts" />
+				
+				<TextView
+                    android:id="@+id/textView99"
+                    style="@style/ScoreSheetTexts" />
+				
+				<TextView
+                    android:id="@+id/textView100"
+                    style="@style/ScoreSheetTexts" />
+				
+				<TextView
+                    android:id="@+id/textView101"
+                    style="@style/ScoreSheetTexts" />
+				
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView104"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView105"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView106"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView107"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView109"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView112"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView113"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView114"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView115"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView116"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView117"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView120"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView121"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView124"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView125"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView126"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView127"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView128"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView129"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView130"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView131"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView132"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView133"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView134"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView135"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView136"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView137"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView138"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView139"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView140"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView141"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView142"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView143"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/editTextd4"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/distance"
+                    android:layout_marginLeft="160dp"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/editTextf4" />
+
+                <EditText
+                    android:id="@+id/editTextf4"
+                    style="@style/ScoreSheetEditText"
+                    android:hint="@string/target_size"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp" >
+
+                <TextView
+                    android:id="@+id/textView144"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView145"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView146"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView147"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView148"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView149"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView150"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="1dp"
+                android:paddingLeft="4dp" >
+
+                <TextView
+                    android:id="@+id/textView152"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView153"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView154"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView155"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView156"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView157"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView158"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView159"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView160"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView161"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView162"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView163"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView164"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView165"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView166"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView167"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView168"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView169"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView170"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView171"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView172"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView173"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView174"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView175"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView176"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView177"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView178"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView179"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView180"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView181"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView182"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView183"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp" >
+
+                <TextView
+                    android:id="@+id/textView184"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView185"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView186"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView187"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView188"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView189"
+                    style="@style/ScoreSheetTexts" />
+                
+                <TextView
+                    android:id="@+id/textView190"
+                    android:layout_width="40dp"
+                    style="@style/ScoreSheetTexts" />
+
+                <TextView
+                    android:id="@+id/textView191"
+                    android:layout_width="57dp"
+                    style="@style/ScoreSheetTexts" />
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRowB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="11"
+                android:text="@string/X" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="10"
+                android:text="@string/ten" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="9"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="8"
+                android:text="@string/eight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="7"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="6"
+                android:text="@string/six" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="5"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="4"
+                android:text="@string/four" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="3"
+                android:text="@string/three" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="2"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="1"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/ScoreSheetButtons"
+                android:onClick="addPoints"
+                android:tag="0"
+                android:text="@string/miss" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button13"
+			style="@style/ScoreSheetButtons"
+			android:textSize="@dimen/text_size_small_sp"
+            android:onClick="backSpace"
+            android:text="@string/bck" />
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/ScoreSheetButtons"
+			android:textSize="@dimen/text_size_small_sp"
+            android:onClick="clearAll"
+            android:text="@string/clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/ScoreSheetButtons"
+			android:textSize="@dimen/text_size_small_sp"
+            android:onClick="save"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/button16"
+            style="@style/ScoreSheetButtons"
+			android:textSize="@dimen/text_size_small_sp"
+            android:onClick="next"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</LinearLayout>

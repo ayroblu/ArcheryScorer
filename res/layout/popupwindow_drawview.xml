@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id = "@+id/textViewPopUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@drawable/green"
+        android:padding="6dp"
+        android:background="#AA000000"
+        android:shadowColor="@drawable/blue"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="15"
+    />
+
+</LinearLayout>

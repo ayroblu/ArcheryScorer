@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <!-- Distance from nock to eye -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_nock_to_eye"
+            android:inputType="numberDecimal"
+            android:key="nock_to_eye_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_nock_to_eye" />
+        
+        <!-- Distance from eye to sight -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_eye_to_sight"
+            android:inputType="numberDecimal"
+            android:key="eye_to_sight_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_eye_to_sight" />
+
+        <!-- Arrow Speed -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_arrow_speed"
+            android:inputType="numberDecimal"
+            android:key="arrow_speed_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_arrow_speed" />
+    <!--
+         This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines.
+   
+    <Preference android:title="@string/pref_title_calculate" >
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>
+ -->
+</PreferenceScreen>

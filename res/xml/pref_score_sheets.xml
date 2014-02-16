@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Same ScoreCard -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="same_score_card_checkbox"
+            android:summary="@string/pref_description_same_score_card"
+            android:title="@string/pref_title_same_score_card" />
+
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <!-- Default UserName -->
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_username"
+            android:inputType="textCapWords"
+            android:key="default_username_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_username" />
+
+        <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+
+
+        -->
+        <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+        <!-- Default Number of Arrows per end -->
+        <ListPreference
+            android:defaultValue="6"
+            android:entries="@array/pref_arrows_list"
+            android:entryValues="@array/pref_arrows_list"
+            android:key="arrows_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_arrows" />
+
+        <!-- Default Input Type -->
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_titles_input_type_list"
+            android:entryValues="@array/pref_entries_input_type_list"
+            android:key="input_type_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_input_type" />
+        
+        <!-- Alert Change End Size confirm -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="change_end_size_confirm_checkbox"
+            android:summary="@string/pref_description_change_end_size_confirm"
+            android:title="@string/pref_title_change_end_size_confirm" />
+        
+        <!-- Update thumbnails -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="update_thumbnails_checkbox"
+            android:summary="@string/pref_description_update_thumbnails"
+            android:title="@string/pref_title_update_thumbnails" />
+    
+</PreferenceScreen>

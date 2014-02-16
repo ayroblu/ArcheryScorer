@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:onClick="changePage"
+            android:orientation="vertical"
+            android:tag="0" >
+
+            <ImageView
+                android:id="@+id/dynamic_archery_score_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/appname_dynamic_score_sheet"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/appname_dynamic_score_sheet"
+                android:textColor="@drawable/white"
+                android:textSize="@dimen/text_size_small_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:onClick="changePage"
+            android:orientation="vertical"
+            android:tag="1" >
+
+            <ImageView
+                android:id="@+id/archery_score_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/appname_archery_score_sheet"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/appname_archery_score_sheet"
+                android:textColor="@drawable/white"
+                android:textSize="@dimen/text_size_small_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:onClick="changePage"
+            android:orientation="vertical"
+            android:tag="2" >
+
+            <ImageView
+                android:id="@+id/saved_pages"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/appname_saved_pages"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/appname_saved_pages"
+                android:textColor="@drawable/white"
+                android:textSize="@dimen/text_size_small_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:onClick="changePage"
+            android:orientation="vertical"
+            android:tag="3" >
+
+            <ImageView
+                android:id="@+id/target"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/appname_target"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/appname_target"
+                android:textColor="@drawable/white"
+                android:textSize="@dimen/text_size_small_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:onClick="changePage"
+            android:orientation="vertical"
+            android:tag="4" >
+
+            <ImageView
+                android:id="@+id/sight_marks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/appname_sight_marks"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/appname_sight_marks"
+                android:textColor="@drawable/white"
+                android:textSize="@dimen/text_size_small_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:onClick="changePage"
+            android:orientation="vertical"
+            android:tag="5" >
+
+            <ImageView
+                android:id="@+id/calculator"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/appname_calculator"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/appname_calculator"
+                android:textColor="@drawable/white"
+                android:textSize="@dimen/text_size_small_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

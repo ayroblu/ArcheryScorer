@@ -1,0 +1,131 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_header_score_sheets" >
+
+        <!-- Same ScoreCard -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="same_score_card_checkbox"
+            android:summary="@string/pref_description_same_score_card"
+            android:title="@string/pref_title_same_score_card" />
+
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <!-- Default UserName -->
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_username"
+            android:inputType="textCapWords"
+            android:key="default_username_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_username" />
+
+        <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+        -->
+        <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+        <!-- Default Number of Arrows per end -->
+        <ListPreference
+            android:defaultValue="6"
+            android:entries="@array/pref_arrows_list"
+            android:entryValues="@array/pref_arrows_list"
+            android:key="arrows_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_arrows" />
+
+        <!-- Default Input Type -->
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_titles_input_type_list"
+            android:entryValues="@array/pref_entries_input_type_list"
+            android:key="input_type_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_input_type" />
+        
+        <!-- Alert Change End Size confirm -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="change_end_size_confirm_checkbox"
+            android:summary="@string/pref_description_change_end_size_confirm"
+            android:title="@string/pref_title_change_end_size_confirm" />
+        
+        <!-- Update thumbnails -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="update_thumbnails_checkbox"
+            android:summary="@string/pref_description_update_thumbnails"
+            android:title="@string/pref_title_update_thumbnails" />
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="@string/pref_header_target" >
+
+        <!-- Full Target -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="full_target_checkbox"
+            android:title="@string/pref_title_full_target" />
+
+        <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+
+
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <!-- Default Spot Size -->
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/pref_spot_size_list"
+            android:entryValues="@array/pref_spot_size_list"
+            android:key="spot_size_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_spot_size" />
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="@string/pref_header_calculator" >
+        <!-- Distance from nock to eye -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_nock_to_eye"
+            android:inputType="numberDecimal"
+            android:key="nock_to_eye_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_nock_to_eye" />
+        
+        <!-- Distance from eye to sight -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_eye_to_sight"
+            android:inputType="numberDecimal"
+            android:key="eye_to_sight_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_eye_to_sight" />
+
+        <!-- Arrow Speed -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_default_arrow_speed"
+            android:inputType="numberDecimal"
+            android:key="arrow_speed_edittext"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_arrow_speed" />
+        <!--
+         This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines.
+        
+        <Preference android:title="@string/pref_title_calculate" >
+            <intent android:action="benl.student.archeryscorer.Calculator" />
+        </Preference>-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

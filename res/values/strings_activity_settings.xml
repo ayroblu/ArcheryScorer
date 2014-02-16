@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Score Sheet Settings -->
+    <string name="pref_header_score_sheets">Score Sheets</string>
+    <string name="pref_title_same_score_card">Group Shoot</string>
+    <string name="pref_description_same_score_card">Everyone is shooting the same shoot</string>
+    <string name="pref_default_username">User</string>
+    <string name="pref_title_username">Default Username</string>
+
+    <string-array name="pref_arrows_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string name="pref_title_arrows">End Size</string>
+    
+    <string-array name="pref_titles_input_type_list">
+        <item>@string/scoring_full</item>
+        <item>@string/scoring_spot</item>
+        <item>@string/scoring_indoor_spot</item>
+        <item>@string/scoring_small_spot</item>
+        <item>@string/scoring_five_zone</item>
+        <item>@string/scoring_field</item>
+        <item>@string/scoring_compound_indoor_spot</item>
+    </string-array>
+    <string-array name="pref_entries_input_type_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string name="pref_title_input_type">Input Type</string>
+    
+    
+    <string name="pref_title_change_end_size_confirm">Confirm Changing End Size</string>
+    <string name="pref_description_change_end_size_confirm">Show a message when changing end size to confirm</string>
+
+    <string name="pref_title_update_thumbnails">Update Thumnails</string>
+    <string name="pref_description_update_thumbnails">Updates Thumbnails when leaving, might be slow</string>
+    
+    <!-- Target Settings -->
+    <string name="pref_header_target">Target</string>
+
+    <string name="pref_title_full_target">Show Full Target</string>
+    
+    <string-array name="pref_spot_size_list">
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+    </string-array>
+    <string name="pref_title_spot_size">Outer Ring of Spot</string>
+
+
+    <!-- Calculator Settings -->
+    <string name="pref_header_calculator">Calculator</string>
+    
+    <string name="pref_default_nock_to_eye">0.15</string>
+    <string name="pref_title_nock_to_eye">Nock to Eye Distance</string>
+    
+    <string name="pref_default_eye_to_sight">1</string>
+    <string name="pref_title_eye_to_sight">Eye to Sight Distance</string>
+    
+    <string name="pref_default_arrow_speed">50</string>
+    <string name="pref_title_arrow_speed">Arrow Speed</string>
+    
+    
+    <string name="pref_title_calculate">Calculate Arrow Speed</string>
+
+</resources>

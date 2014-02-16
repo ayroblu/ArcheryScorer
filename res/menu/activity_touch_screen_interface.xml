@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_change_face"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_zoom"
+        android:title="@string/menu_change_face"/>
+    
+    <item
+        android:id="@+id/menu_change_end_size"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_rotate"
+        android:title="@string/menu_change_end_size"/>
+    
+    <item
+        android:id="@+id/menu_change_spot_size"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/menu_change_spot_size"/>
+    
+    <item
+        android:id="@+id/menu_save"
+        android:orderInCategory="4"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_save"
+        android:title="@string/menu_save"/>
+
+</menu>
